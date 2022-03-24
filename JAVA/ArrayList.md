@@ -1,7 +1,6 @@
-## ArrayList
+# ArrayList
 
 ![image](https://user-images.githubusercontent.com/68404906/159867769-00dcf82d-dcfb-4103-96ca-c4b30fef8543.png)
-
 
 1.  Define:
 
