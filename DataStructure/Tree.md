@@ -1,5 +1,8 @@
 # Tree traversal:
 
+![image](https://user-images.githubusercontent.com/68404906/159869375-a5a318bb-88ed-48cc-b280-f259f0e02618.png)
+
+
 ## Depth First Traversals:
 
 (a) Inorder (Left, Root, Right) : 4 2 5 1 3
