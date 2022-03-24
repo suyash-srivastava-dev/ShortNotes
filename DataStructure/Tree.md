@@ -2,7 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/68404906/159869375-a5a318bb-88ed-48cc-b280-f259f0e02618.png)
 
-
 ## Depth First Traversals:
 
 (a) Inorder (Left, Root, Right) : 4 2 5 1 3
@@ -13,21 +12,20 @@
 2.  Visit the root.
 3.  Traverse the right subtree, i.e., call Inorder(right-subtree)
 
+        void printInorder(Node node)
+        {
+            if (node == null)
+                return;
 
-    void printInorder(Node node)
-    {
-        if (node == null)
-            return;
+            /* first recur on left child */
+            printInorder(node.left);
 
-        /* first recur on left child */
-        printInorder(node.left);
+            /* then print the data of node */
+            System.out.print(node.key + " ");
 
-        /* then print the data of node */
-        System.out.print(node.key + " ");
-
-        /* now recur on right child */
-        printInorder(node.right);
-    }
+            /* now recur on right child */
+            printInorder(node.right);
+        }
 
 > Similary for preorder and postorder, by changing the order of element access
 
